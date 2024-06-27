@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: whitesmoke;
+
+    font-family: "Playwrite NG Modern", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    
+}
+
+h1{
+    text-align: center;
+    margin-top: 1%;
+
+    font-size: 45px;
+    color:#4043bc;
+    text-decoration: underline;    
+}  
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+
+    width: 60%;
+    height: 50px;
+
+    justify-content: center;
+    margin: auto;
+    margin-top: 2%;    
+}
+
+input{
+    flex: 89%;  
+    padding: 10px;    
+    
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+    color: #4043bc;
+    font-size: 25px;
+    font-family: "Playwrite NG Modern", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+input::placeholder{
+    color: #6465ac;
+}
+
+.button{
+    flex: 11%;
+    padding: 8px;   
+
+    font-size: 50px;
+    cursor: pointer;
+    
+    background-color: rgb(3, 172, 3);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.mdi-plus{
+    color:white;
+}
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.item{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 70px;    
+    margin-bottom: 2.5%;
+
+    background-color:#180f4a;
+    border-radius: 30px;
+}
+.item.clicado{
+    background-color: rgb(89, 115, 89);    
+}
+.item.clicado .item-nome{
+    text-decoration: line-through;
+    color: rgb(172, 172, 172);
+}
+.mdi-check-circle{
+    color: rgb(7, 208, 7);
+}
+
+.item-icone{
+    flex: 10%;
+    height: 70px;
+
+    cursor: pointer;
+
+    font-size: 30px;
+    text-align: center;
+    align-content: center;     
+}
+.mdi-circle-outline{
+    color: white;     
+}
+
+.item-nome{
+    flex: 70%;
+    height: 70px;
+
+    color: #ff2978;
+    font-size: 26px;
+    
+    align-content: center;
+}
+
+.favoritar{
+    flex: 9%;
+    height: 70px;
+
+    cursor: pointer;
+
+    text-align: center;
+    align-content: center;    
+}
+.mdi-star-outline{
+    color: white;
+    font-size: 30px;
+
+    height: 70px;
+    width: 100%;    
+}
+.item.favoritado .mdi-star { 
+    color: rgb(255, 255, 21);
+    font-size: 30px;
+
+    height: 70px;
+    width: 100%;  
+}
+
+.item-botao{
+    flex: 11%;
+    height: 70px;    
+}
+
+.deletar{
+    color: white;
+    font-size: 30px;
+    height: 70px;
+    width: 100%;
+
+    cursor: pointer;
+
+    background-color: crimson;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
