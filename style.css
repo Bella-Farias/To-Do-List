@@ -6,7 +6,7 @@
 }
 
 body{
-    background: whitesmoke;
+    background: #180f4al;
 
     font-family: "Playwrite NG Modern", cursive;
     font-optical-sizing: auto;
@@ -20,7 +20,7 @@ h1{
     margin-top: 1%;
 
     font-size: 45px;
-    color:#4043bc;
+    color: #ff2978;
     text-decoration: underline;    
 }  
 
@@ -89,6 +89,7 @@ main{
     margin-bottom: 2.5%;
 
     background-color:#180f4a;
+    box-shadow: 0 0 12px white;
     border-radius: 30px;
 }
 .item.clicado{
