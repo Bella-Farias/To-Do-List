@@ -39,7 +39,8 @@ header{
 input{
     flex: 89%;  
     padding: 10px;    
-    
+
+    border: 0;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 
@@ -60,7 +61,8 @@ input::placeholder{
 
     font-size: 50px;
     cursor: pointer;
-    
+
+    border: 0;
     background-color: rgb(3, 172, 3);
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
